@@ -1,0 +1,34 @@
+# Smart Car Price Prediction Dashboard
+
+## Problème
+Ce projet vise à prédire le prix des voitures d’occasion à partir de leurs caractéristiques (année, kilométrage, moteur, carburant, etc.) et à proposer une analyse interactive des données.
+
+## Dataset
+- Source : Kaggle
+- Nom : Car details v3.csv
+- Description :
+Le dataset contient des informations sur plusieurs voitures :
+- name : nom de la voiture
+- year : année
+- selling_price : prix
+- km_driven : kilométrage
+- fuel : type carburant
+- transmission : type de boîte
+- engine : puissance moteur
+- mileage : consommation
+
+## Modèles utilisés
+- Random Forest Regressor (prédiction)
+- KMeans (clustering)
+
+## Résultats
+
+| Modèle | MAE | MSE | R² |
+| Random Forest | 0.98 | 2.34 | 0.93 |
+
+## Installation
+
+pip install -r requirements.txt
+## Lancer projet
+
+streamlit run app.py
