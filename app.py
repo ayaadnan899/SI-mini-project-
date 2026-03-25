@@ -7,9 +7,9 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
-# =========================
+# ========================
 # 1. Charger dataset
-# =========================
+# =======================
 df = pd.read_csv(r"C:\Users\hp\Downloads\Car details v3.csv")
 df = df.dropna()
 
