@@ -1,6 +1,7 @@
 # Smart Car Price Prediction Dashboard
 
-## Problème
+
+# Problème
 Ce projet vise à prédire le prix des voitures d’occasion à partir de leurs caractéristiques (année, kilométrage, moteur, carburant, etc.) et à proposer une analyse interactive des données.
 
 ## Dataset
